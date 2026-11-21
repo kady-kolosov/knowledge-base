@@ -1,0 +1,134 @@
+# ! ОСНОВНЫЕ
+# Файлы и папки по маске
+*~
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+logs/
+
+# Общие файлы данных
+*.sqlite3
+*.db
+
+
+# ! PYTHON
+# Байт-код и кэш
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Виртуальное окружение
+.env
+.venv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Пакеты и сборка
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Логи установки пакетов
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PEP 582
+__pypackages__/
+
+
+# ! ТЕСТИРОВАНИЕ
+# Pytest
+.pytest_cache/
+.pytest_cache/
+
+# Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Allure
+allure_results/
+allure-results/
+reports/
+
+# Скриншоты и артефакты тестов
+test-results/
+failures/
+tests/build
+tests/qaseio.lock
+qaseio.lock
+/Screenshots
+
+
+# ! IDE И РЕДАКТОРЫ
+# VS Code
+.vscode/
+.vscode-server/
+
+# PyCharm
+.idea/
+
+# IPython
+.ipython/
+.local/
+profile_default/
+ipython_config.py
+
+# Pyre
+.pyre/
+
+
+# ! ПРОЧЕЕ
+# Временные и рабочие папки
+out/
+repo/
+sandbox/
+assets
+
+# Ключи и сертификаты (если не тестовые самоподписанные)
+*.pem
+*.pub
+*_rsa
+*.prof
+
+# Бэкапы
+*.bak
+
+
+# ! ИСКЛЮЧЕНИЯ (НЕ ИГНОРИРОВАТЬ)
+!.gitignore
+!.gitattributes
+!.editorconfig
+!.dockerignore

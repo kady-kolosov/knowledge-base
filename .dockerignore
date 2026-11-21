@@ -1,0 +1,84 @@
+# ! PYTHON
+# Байт-код и кэш
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.ruff_cache/
+
+# Виртуальное окружение
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Сборка и пакеты
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+*.manifest
+*.spec
+
+# Логи
+*.log
+
+
+# ! ТЕСТИРОВАНИЕ И ОТЧЁТЫ
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pytest_cache/
+allure_results/
+allure-results/
+reports/
+test-results/
+failures/
+
+
+#! IDE И РЕДАКТОРЫ
+.vscode/
+.vscode-server/
+.idea/
+*.swp
+*.swo
+*~
+
+
+# ! ОКРУЖЕНИЕ И СЕКРЕТЫ
+.env
+.env.*
+*.pem
+*.pub
+*secret*
+
+
+# ! OS И ФАЙЛОВАЯ СИСТЕМА
+.DS_Store
+Thumbs.db
+*.sqlite3
+*.db
+
+
+# ! GIT И DOCKER
+.git/
+.gitignore
+.gitattributes
+.dockerignore
+Dockerfile*
+docker-compose*.yml
+.docker/
+
+
+# ! ПРОЧЕЕ
+node_modules/
+.cache/
+out/
+tmp/
+temp/
