@@ -1,0 +1,79 @@
+{
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  "workbench.editor.restoreViewState": true,
+  "workbench.tree.indent": 18,
+  "workbench.tree.renderIndentGuides": "always",
+  "breadcrumbs.enabled": true,
+  "update.mode": "manual",
+  "telemetry.telemetryLevel": "off",
+  "workbench.colorTheme": "Dark Modern",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "workbench.colorCustomizations": {
+    "editorLineNumber.foreground": "#666666",
+    "editorLineNumber.activeForeground": "#FAEBD7"
+  },
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontSize": 18,
+  "editor.lineHeight": 24,
+  "editor.letterSpacing": 0.8,
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "none",
+  "editor.renderControlCharacters": false,
+  "editor.tabSize": 2,
+  "editor.mouseWheelZoom": false,
+  "window.zoomLevel": 0.2,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.inlineSuggest.enabled": true,
+  "editor.snippetSuggestions": "top",
+  "editor.hover.enabled": "off",
+  "editor.minimap.enabled": false,
+  "editor.minimap.scale": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "terminal.integrated.fontSize": 18,
+  "files.autoSave": "onWindowChange",
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "cursor.composer.textSizeScale": 1.15,
+  "cursor.composer.usageSummaryDisplay": "always",
+  "cursor.terminal.usePreviewBox": true,
+  "cursor.cpp.enablePartialAccepts": true,
+  "python-envs.defaultEnvManager": "ms-python.python:venv",
+  // Ruff
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnType": false,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.rulers": [
+      {
+        "column": 88,
+        "color": "#666666"
+      }
+    ],
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.ruff": "explicit",
+      "source.fixAll.ruff": "explicit"
+    }
+  },
+  "ruff.lineLength": 88,
+  // Pylance:
+  "python.analysis.typeCheckingMode": "basic", // Режим проверки типов: off / basic / strict
+  "python.analysis.diagnosticMode": "workspace", // Анализировать весь проект (workspace)
+  // Python Indent:
+  "pythonIndent.trimLinesWithOnlyWhitespace": true, // Удалить строки, содержащие только пробелы: true / false
+  // Indent Rainbow:
+  "indentRainbow.includedLanguages": [
+    "python" // Подсветка отступов для Python
+  ],
+  // eCSStractor:
+  "ecsstractor_port.bem_nesting": true,
+  "python.terminal.useEnvFile": true, // Включить вложенность BEM: true / false
+}

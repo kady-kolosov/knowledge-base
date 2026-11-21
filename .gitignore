@@ -94,7 +94,6 @@ qaseio.lock
 
 # ! IDE И РЕДАКТОРЫ
 # VS Code
-.vscode/
 .vscode-server/
 
 # PyCharm
