@@ -665,16 +665,17 @@ echo $VIRTUAL_ENV
 pip install <package>
 ```
 
-> Зафиксировать зависимости в requirements.txt.
-
-```bash
-pip freeze > requirements.txt
-```
-
-> Установить зависимости из requirements.txt.
+> Установить пакеты из requirements.txt
 
 ```bash
 pip install -r requirements.txt
+pip install --upgrade -r requirements.in
+```
+
+> Зафиксировать пакеты в requirements.txt
+
+```bash
+pip freeze > requirements.txt
 ```
 
 ### Деактивировать окружение
