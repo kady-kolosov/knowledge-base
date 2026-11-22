@@ -1,133 +1,92 @@
-# ! ОСНОВНЫЕ
-# Файлы и папки по маске
-*~
+# ОС И РЕДАКТОРЫ
 .DS_Store
 Thumbs.db
+*~
+*.swp
+*.swo
+.idea/
+.history/
+.vscode-server/
+.ipynb_checkpoints/
 
-# Логи
-*.log
-logs/
-
-# Общие файлы данных
-*.sqlite3
-*.db
-
-
-# ! PYTHON
-# Байт-код и кэш
-__pycache__/
-*.py[cod]
-*$py.class
-*.pyc
-
-# Виртуальное окружение
+# ОКРУЖЕНИЕ И СЕКРЕТЫ
 .env
-.venv
+.env.*
+!.env.example
+.venv/
 venv/
 env/
 ENV/
 env.bak/
 venv.bak/
 .python-version
+*.pem
+*.pub
+*_rsa
 
-# Пакеты и сборка
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
+# PYTHON
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
 .eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
+build/
+dist/
 wheels/
+sdist/
+develop-eggs/
+downloads/
+parts/
 pip-wheel-metadata/
 share/python-wheels/
-*.egg-info/
 .installed.cfg
 *.egg
 *.manifest
 *.spec
+__pypackages__/
+.Python
 
-# Логи установки пакетов
+# ТЕСТЫ И ЛИНТЕРЫ
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.pyre/
+.hypothesis/
+.tox/
+.nox/
+.cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+allure-results/
+allure-report/
+reports/
+test-results/
+failures/
+/Screenshots
+
+# ЛОГИ
+*.log
+logs/
 pip-log.txt
 pip-delete-this-directory.txt
 
-# PEP 582
-__pypackages__/
+# БАЗЫ ДАННЫХ
+*.sqlite3
+*.db
 
+# АГЕНТСКИЕ НАСТРОЙКИ
+.claude/settings.local.json
+.gigacode/GIGACODE.local.md
 
-# ! ТЕСТИРОВАНИЕ
-# Pytest
-.pytest_cache/
-.pytest_cache/
-
-# Coverage
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py,cover
-.hypothesis/
-
-# Allure
-allure_results/
-allure-results/
-reports/
-
-# Скриншоты и артефакты тестов
-test-results/
-failures/
-tests/build
-tests/qaseio.lock
-qaseio.lock
-/Screenshots
-
-
-# ! IDE И РЕДАКТОРЫ
-# VS Code
-.vscode-server/
-
-# PyCharm
-.idea/
-
-# IPython
-.ipython/
-.local/
-profile_default/
-ipython_config.py
-
-# Pyre
-.pyre/
-
-
-# ! ПРОЧЕЕ
-# Временные и рабочие папки
+# ВРЕМЕННОЕ
 out/
-repo/
 sandbox/
-assets
-
-# Ключи и сертификаты (если не тестовые самоподписанные)
-*.pem
-*.pub
-*_rsa
-*.prof
-
-# Бэкапы
 *.bak
 
-
-# ! ИСКЛЮЧЕНИЯ (НЕ ИГНОРИРОВАТЬ)
+# ИСКЛЮЧЕНИЯ
 !.gitignore
 !.gitattributes
-!.editorconfig
 !.dockerignore
+!.editorconfig
