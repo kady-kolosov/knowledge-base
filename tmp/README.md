@@ -698,69 +698,6 @@ rm -rf .venv
 
 ## UV
 
-## LM Studio
-
-## Правила наименования проекта
-
-<source>-<topic>
-
-example:
-  stepik-c575-selenium-pytest
-  youtube-fls-grid-layout
-  amka-billing-selenium-pytest
-  internal-starter-kit
-
-## Правила наименования веток
-
-<type>/<ticket>-<short-slug>
-ticket — optional
-
-type: feat | fix | refactor | test | chore | ci | docs
-short-slug: add- ... | fix- ... | refactor- ... | update- ... | etc.
-example: fix/123-fix-token-refresh
-
-## Правила наименования коммитов Conventional Commits
-
-```
-<type>(<scope>): <subject>
-```
-
-type — это ...
-  — feat
-  — fix
-  — refactor
-  — perf: производительность
-  — security: безопасность
-  — chore
-  — docs
-  — test
-  — ci
-  — build
-
-scope — это ...
-  — core
-  — deps
-  — pytest
-  — selenium
-  — unit
-  — integration
-  — ui
-  — e2e
-
-subject — это ...
-  — add ...
-  — fix ...
-  — hotfix ...
-  — refactor ...
-  — update ...
-  — rename ...
-  — move ...
-  — remove ...
-
-```bash
-feat(api): add new payment method
-```
-
 ## Шпаргалка по работе с Git
 
 merge без запроса на ревью:
