@@ -2,11 +2,11 @@
   "recommendations": [
     "aaron-bond.better-comments",
     "charliermarsh.ruff",
-    "continue.continue",
     "diz.ecsstractor-port",
     "editorconfig.editorconfig",
     "formulahendry.auto-close-tag",
     "formulahendry.auto-rename-tag",
+    "gigacode.gigacode-vscode",
     "humao.rest-client",
     "ionutvmi.path-autocomplete",
     "kevinrose.vsc-python-indent",
